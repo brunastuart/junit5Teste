@@ -11,7 +11,7 @@ public class AssumptionsTeste {
         Assumptions.assumeTrue("bruna".equals (System.getenv("USERNAME")));
         //Assumptions.assumeFalse("root".equals(System.getenv("USER")));
         Assertions.assertEquals(10, 5 + 5);
-        System.out.println("Teste executado para o usuário: bruna;
+        System.out.println("Teste executado para o usuário: bruna");
 
         /*
         Para descobrir o nome da variável de ambiente do seu usuário, rode o código abaixo: 
