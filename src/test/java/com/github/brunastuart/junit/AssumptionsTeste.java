@@ -14,7 +14,7 @@ public class AssumptionsTeste {
         System.out.println("Teste executado para o usuário: bruna;
 
         /*
-        Para descobrir o nome da variável de ambiente do seu usuário, rode o código abaixo:
+        Para descobrir o nome da variável de ambiente do seu usuário, rode o código abaixo: 
         String userVariavel = System.getenv("USER");
         String userNomeVariavel = System.getenv("USERNAME");
         System.out.println("USER: " + userVariavel);
