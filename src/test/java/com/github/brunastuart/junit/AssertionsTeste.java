@@ -1,18 +1,17 @@
 package com.github.brunastuart.junit;
 
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import java.time.LocalDateTime;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-/**
- * Exemplos de asserções usando a classe {@link org.junit.jupiter.api.Assertions}
- *
- *
- */
-public class AssertionsTeste {
+// Exemplos de asserções usando a classe {@link org.junit.jupiter.api.Assertions}
 
+
+public class AssertionsTeste {
+    
     @Test
     void validarValoresDeOperacoes() {
 
