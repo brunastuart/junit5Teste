@@ -1,7 +1,6 @@
 package com.github.brunastuart.junit;
 
-import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.*;
 
 public class ExceptionsTeste {
 
@@ -12,6 +11,11 @@ public class ExceptionsTeste {
 
         TransferenciaEntreContas transferenciaEntreContas = new TransferenciaEntreContas();
 
+        Assertions.assertThrows(IllegalArgumentException.class, () ->
+            transferenciaEntreContas.transfere(contaOrigem, contaDestino, -10));
+
+
+        // Verifica que nenhuma exceção é lançada quando o saldo é suficiente        
         Assertions.assertDoesNotThrow(() -> transferenciaEntreContas.transfere(contaOrigem, contaDestino, 20));
-    }
+        }
 }
