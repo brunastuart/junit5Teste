@@ -1,10 +1,7 @@
 package com.github.brunastuart.junit;
 
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-
 import java.time.LocalDateTime;
-
 import static org.junit.jupiter.api.Assertions.*;
 
 // Exemplos de asserções usando a classe {@link org.junit.jupiter.api.Assertions}
@@ -67,7 +64,7 @@ public class AssertionsTeste {
         int x = 5;
         int y = 6;
 
-        assertNotEquals(5, 6);
+        assertNotEquals(x, y);
     }
 
     @Test
