@@ -1,4 +1,4 @@
-# junit5
+# JUnit5
 
 Projeto de exemplo demonstrando recursos básicos do JUnit 5.
 
